@@ -38,3 +38,54 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo {
+    margin-right: 50px;
+}
+
+.nav__link {
+    padding: 32px 6px;
+    display: block;
+    color: black;
+    font-size: 15px;
+}
+
+.nav__link:hover {
+    text-shadow: 1px 1px 1px black;
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.nav__search input {
+    border: none;
+    outline: none;
+}
+
+.nav__search i {
+    color: rgba(76, 83, 102, 1);
+}
+.nav__select{
+    border: none;
+}
+.nav__btns .nav__btn {
+    border: none;
+    background: none;
+    padding: 7px 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav__btns .nav__btn:last-of-type {
+    background: var(--primary);
+    color: white;
+    border-radius: 4px;
+}
